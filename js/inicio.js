@@ -12,6 +12,7 @@ btnGuardar.addEventListener("click", function (event) {
   txtNombre.style.border = "";
   alertValidacionesTexto.innerHTML = "";
   alertValidaciones.style.display = "none";
+  isValid = true;
 
   if (txtNombre.value.length < 3 || !isNaN(txtNombre.value)) {
     txtNombre.style.border = "solid red medium";
