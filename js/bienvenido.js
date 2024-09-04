@@ -6,8 +6,6 @@ window.addEventListener("load", function () {
     txtBienvenida.innerText = `Hola, ${this.localStorage.getItem(
       "nombre"
     )} bienvenido/a de nuevo`;
-  } else {
-    txtBienvenida.innerText = "Por favor ve al index e ingresa tu nombre";
   }
 });
 
