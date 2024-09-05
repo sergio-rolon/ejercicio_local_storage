@@ -25,8 +25,8 @@
           </div>
           <form class="needs-validation" novalidate>
             <div class="row">
-              <div class="col-md-6 mb-3">
-                <label for="Name">Nombre</label>
+              <div class="col-md-12 d-flex">
+                <label for="Name" class="fs-3">Nombre</label>
                 <input
                   type="text"
                   class="form-control"
@@ -39,15 +39,15 @@
                 />
                 <!-- Autofocus es un atributo que solo se puede usar en un solo campo -->
                 <div class="invalid-feedback">Nombre inválido</div>
+                <button
+                  id="btnGuardar"
+                  class="btn btn-primary btn-lg btn-block"
+                  type="button"
+                >
+                  Guardar
+                </button>
               </div>
             </div>
-            <button
-              id="btnGuardar"
-              class="btn btn-primary btn-lg btn-block"
-              type="button"
-            >
-              Guardar
-            </button>
           </form>
         </div>
         <div class="col-md-8 order-md-1 text-center">
